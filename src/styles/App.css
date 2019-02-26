@@ -1,0 +1,25 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+
+  border: 1px solid #fff;
+  background-color: #61dafb;
+  color: #fff;
+
+  cursor: pointer;
+}
